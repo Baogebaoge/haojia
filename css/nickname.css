@@ -1,0 +1,94 @@
+html{
+    font-size: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: '苹果方黑';
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    -webkit-tap-highlight-color: transparent;
+}
+input{
+    outline: none;
+    border: 0;
+}
+img{
+    display: block;
+}
+
+
+.nickanme{
+    width: 100%;
+    height: 13.34rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.nickanme .top{
+    width: 100%;
+    height:auto;
+}
+.nickanme .top .header{
+    width: 100%;
+    height: auto;
+    background-color: #569F6C;
+    padding:0.2rem 0;
+}
+.nickanme .header h1{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #ffffff;
+    position: absolute;
+    top: -0.1rem;
+    left: 0.2rem;
+}
+.nickanme .header h2{
+    font-size: 0.4rem;
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.nickanme .top .mingzi{
+    width: 92%;
+    height:auto;
+    margin: 0.35rem auto;
+    box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+    padding: 0.2rem;
+    overflow: hidden;
+}
+.nickanme .top .mingzi h1{
+    font-size: 0.35rem;
+    font-weight: normal;
+    color: #333333;
+    float: left;
+}
+.nickanme .top h5{
+    font-size: 0.25rem;
+    color: #569f6c;
+    float:right;
+    margin-right: 0.26rem;
+    margin-top: -0.2rem;
+}
+
+.nickanme .top .modify{
+    width: 50%;
+    height:auto;
+    padding:0.1rem 0.2rem;
+    margin:60% auto;
+    border-radius: 30px;
+    background: #569F6C;
+}
+.nickanme .top .modify h1{
+    font-size: 0.35rem;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}

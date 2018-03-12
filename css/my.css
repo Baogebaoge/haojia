@@ -1,0 +1,219 @@
+﻿html{
+	font-size: 50px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: '苹果方黑';
+}
+a{
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover{
+	-webkit-tap-highlight-color: transparent;
+}
+input{
+	outline: none;
+	border: 0;
+}
+img{
+	display: block;
+}
+
+
+.dynamic{
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.dynamic .page{
+	width: 100%;
+	height: auto;
+}
+.page .header{
+	width: 100%;
+	height: auto;
+	background-color: #569F6C;
+	padding:0.2rem 0;
+}
+.page .header h1{
+	font-size: 0.4rem;
+	text-align: center;
+	font-weight: normal;
+	color: #ffffff;
+}
+.page .header img{
+	width: 0.4rem;
+	height:0.4rem;
+	position: absolute;
+	top: 0.25rem;
+	right: 0.25rem;
+}
+.page .rest{
+	width: 100%;
+	height: 4rem;
+	background-image: url("../img/wode.png");
+	background-size: 100% 4rem;
+	margin-bottom: 0.2rem;
+	margin-top: -0.01rem;
+	position: relative;
+}
+.page .rest img{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.8rem;
+	left: 50%;
+	margin-left:-1rem;
+	border-radius: 50%;
+}
+.page .rest h1{
+	font-size: 0.3rem;
+	color: #ffffff;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	margin-left: -0.5rem;
+	font-weight: normal;
+}
+.page .rest h2{
+	font-size: 0.3rem;
+	color: #ffffff;
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	margin-left: -0.4rem;
+	font-weight: normal;
+}
+
+
+.page .middle{
+	width: 95%;
+	height: auto;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.page .middle .browse{
+	width: 100%;
+	height: auto;
+	padding: 0.3rem 0.3rem;
+	overflow: auto;
+}
+.page .middle .browse img{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: left;
+}
+.page .middle .browse h1{
+	font-size: 0.3rem;
+	color: #666666;
+	float: left;
+	margin:0 0.3rem;
+}
+.page .middle .browse h2{
+	font-size: 0.3rem;
+	color: #666666;
+	float: right;
+	margin:0 0.3rem;
+}
+
+.page .foot{
+	width: 100%;
+	height: 1.2rem;
+	overflow: hidden;
+	background: #ffffff;
+	border-top:0.01rem solid #babbbc;
+	border-bottom:0.01rem solid #babbbc;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.page .foot .shouye{
+	width: 21%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .shouye img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .shouye h1{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #babbbc;
+	margin-top: 0.05rem;
+}
+.page .foot .haojia{
+	width: 21%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .haojia img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .haojia h1{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #babbbc;
+	margin-top: 0.05rem;
+}
+.page .foot .jiahao{
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.1rem;
+	border-radius: 50%;
+	background: #569F6C;
+	float: left;
+}
+.page .foot .jiahao h1{
+	font-size: 0.9rem;
+	color: #ffffff;
+	margin-left:0.15rem;
+}
+.page .foot .dongtai{
+	width: 21%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .dongtai img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .dongtai h1{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #569F6C;
+	margin-top: 0.05rem;
+}
+.page .foot .wode{
+	width: 21%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .wode img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .wode h1{
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.05rem;
+	color: #babbbc;
+}

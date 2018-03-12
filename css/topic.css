@@ -1,0 +1,297 @@
+﻿html{
+	font-size: 50px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: '苹果方黑';
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	-webkit-tap-highlight-color: transparent;
+}
+input{
+	outline: none;
+	border: 0;
+}
+img{
+	display: block;
+}
+
+
+.dynamic{
+	width: 100%;
+	height:auto;
+	margin: 0 auto;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.dynamic .page{
+	width: 100%;
+	height: auto;
+}
+.dynamic .page .top{
+	width: 100%;
+	height:auto;
+	background: #569F6C;
+}
+.page .header{
+	width: 100%;
+	height: auto;
+	background-color: #569F6C;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.page .header h1{
+	font-size: 0.4rem;
+	text-align: center;
+	font-weight: normal;
+	color: #ffffff;
+	margin-top: 0.2rem;
+	margin-bottom: 0.15rem;
+}
+.page .header img{
+	width: 0.4rem;
+	height:0.4rem;
+	position: absolute;
+	top: 0.25rem;
+	right: 0.25rem;
+}
+.page .case{
+	width: 100%;
+	height:auto;
+	background-color: #569F6C;
+	position: fixed;
+	top: 0.8rem;
+	left: 0;
+	display: flex;
+	justify-content:space-around;
+}
+.page .case .case1{
+	width:25%;
+	height: auto;
+	border-radius: 12px;
+	background: #ffffff;
+	margin: 0.2rem;
+}
+.page .case h2{
+	font-size: 0.36rem;
+	text-align: center;
+	font-weight: normal;
+	color: #333333;
+}
+.page .case h3{
+	font-size: 0.36rem;
+	text-align: center;
+	font-weight: normal;
+	color: #7CB58D;
+}
+
+.page .image{
+	width: 100%;
+	height:auto;
+	padding: 0.15rem 0.2rem;
+	margin-top: 1.7rem;
+}
+.page .image img{
+	width: 100%;
+	height: 3.15rem;
+}
+.page .image1{
+	width: 100%;
+	height:auto;
+	padding: 0.15rem 0.2rem;
+	margin-top: 0.1rem;
+}
+.page .image1 img{
+	width: 100%;
+	height: 3.15rem;
+}
+
+.page .author{
+	width: 100%;
+	height:auto;
+	border-bottom: 0.01rem dashed #000;
+	padding:0.2rem;
+	overflow: hidden;
+}
+.page .author .portrait{
+	width: 40%;
+	height:auto;
+	float:left;
+}
+.page .author .portrait img{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	float: left;
+}
+.page .author .portrait h1{
+	font-size: 0.3rem;
+	color:#333333;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.07rem;
+}
+.page .author .list{
+	width: 60%;
+	height:auto;
+	float:right;
+}
+.page .author .list img{
+	width: 0.3rem;
+	height: 0.3rem;
+	float:right;
+	margin: 0.15rem;
+}
+.page .author .list h1{
+	font-size: 0.3rem;
+	color: #666666;
+	float:right;
+	margin-top: 0.1rem;
+}
+.page .article{
+	padding: 0.05rem 0.2rem;
+}
+.page .article h1{
+	font-size: 0.35rem;
+	color: #333333;
+}
+.page .line{
+	width: 100%;
+	height: 0.3rem;
+	background: #F0F2F3;
+	margin-top: 0.2rem;
+}
+
+.page .foot{
+	width: 100%;
+	height: 1.2rem;
+	overflow: hidden;
+	background: #ffffff;
+	border-top:0.01rem solid #babbbc;
+	border-bottom:0.01rem solid #babbbc;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.page .foot .shouye{
+	width: 20%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .shouye img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .shouye h1{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #babbbc;
+	margin-top: 0.05rem;
+}
+.page .foot .haojia{
+	width: 20%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .haojia img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .haojia h1{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #babbbc;
+	margin-top: 0.05rem;
+}
+.page .foot .jiahao{
+	width: 1rem;
+	height: 1rem;
+	margin-top: 0.1rem;
+	border-radius: 50%;
+	background: #569F6C;
+	float: left;
+}
+.page .foot .jiahao h1{
+	font-size: 0.9rem;
+	color: #ffffff;
+	margin-left:0.15rem;
+}
+.page .foot .dongtai{
+	width: 20%;
+	height:auto;
+	float: left;
+	padding-top: 0.1rem;
+}
+.page .foot .dongtai img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .dongtai h1{
+	font-size: 0.2rem;
+	text-align: center;
+	color: #569F6C;
+	margin-top: 0.05rem;
+}
+.page .foot .wode{
+	 width: 20%;
+	 height:auto;
+	 float: left;
+	 padding-top: 0.1rem;
+ }
+.page .foot .wode img{
+	width: 0.6rem;
+	height:0.6rem;
+	margin:0 auto;
+}
+.page .foot .wode h1{
+	font-size: 0.2rem;
+	text-align: center;
+	margin-top: 0.05rem;
+	color: #babbbc;
+}
+
+
+.page .middle{
+	width: 95%;
+	height: auto;
+	margin:0 auto;
+	border-radius: 5px;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.page .middle .browse{
+	width: 100%;
+	height: auto;
+	padding: 0.3rem 0.3rem;
+	overflow: auto;
+}
+.page .middle .browse img{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: left;
+}
+.page .middle .browse h1{
+	font-size: 0.3rem;
+	color: #666666;
+	float: left;
+	margin:0 0.3rem;
+}
+.page .middle .browse h2{
+	font-size: 0.3rem;
+	color: #666666;
+	float: right;
+	margin:0 0.3rem;
+}
+

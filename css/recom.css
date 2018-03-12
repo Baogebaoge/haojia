@@ -1,0 +1,231 @@
+html{
+    font-size: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: '苹果方黑';
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    -webkit-tap-highlight-color: transparent;
+}
+input{
+    outline: none;
+    border: 0;
+}
+img{
+    display: block;
+}
+
+
+.recom{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.recom .top{
+    width: 100%;
+    height:auto;
+}
+.recom .top .header{
+    width: 100%;
+    height: auto;
+    background-color: #569F6C;
+    padding:0.2rem 0;
+}
+.recom .header h1{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #ffffff;
+    position: absolute;
+    top: -0.1rem;
+    left: 0.2rem;
+}
+.recom .header h2{
+    font-size: 0.4rem;
+    text-align: center;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+
+.recom .header .xian{
+    width: 100%;
+    height:auto;
+    padding: 0.3rem 0.2rem;
+    overflow: hidden;
+}
+.recom .header .xian .xian1{
+    width: 40%;
+    height: 0.01rem;
+    background: #6cca88;
+    float: left;
+}
+.recom .header .xian h1{
+    font-size: 0.2rem;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+}
+
+.recom .outfit{
+    width: 100%;
+    height:12rem;
+}
+.recom .outfit .works{
+    width: 90%;
+    height: 10.5rem;
+    margin:0.3rem auto;
+    border-radius: 10px;
+    padding: 0.3rem 0.4rem;
+    overflow: hidden;
+    box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
+}
+.recom .outfit .works .yuan{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    float: left;
+    border: 0.01rem solid #569F6C;
+    background: #ffffff;
+}
+.recom .outfit .works .xinqi{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background: #569F6C;
+    padding-top: 0.2rem;
+    margin:0.23rem 0.23rem;
+}
+.recom .outfit .works .xinqi h1{
+    font-size: 0.25rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+}
+.recom .outfit .works .you{
+    width: 60%;
+    height: 1.6rem;
+    float: right;
+    padding-top: 0.2rem;
+}
+.recom .outfit .works .you h1{
+    font-size: 0.25rem;
+    color: #569f6c;
+    font-weight: normal;
+    margin: 0.05rem;
+}
+.recom .outfit .works .you h2{
+    font-size: 0.25rem;
+    color: #333333;
+    font-weight: normal;
+    margin: 0.05rem;
+}
+.recom .outfit .works .on{
+    width: 60%;
+    height: 1rem;
+    border-left:0.01rem solid #569F6C;
+    margin-left: 0.8rem;
+    overflow: hidden;
+}
+.recom .outfit .works .on h1{
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #569f6c;
+    float: left;
+    margin-right: 0.2rem;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.recom .outfit .works .on h2{
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #333333;
+    float: left;
+    margin-top: 10%;
+}
+.recom .outfit .works .tupian{
+    width: 80%;
+    height: auto;
+    border-left:0.01rem solid #569F6C;
+    overflow: hidden;
+    margin-left: 0.8rem;
+}
+.recom .outfit .works .tupian .tp, .tp1{
+    margin-left: 0.3rem;
+}
+.recom .outfit .works .tupian .tp img{
+    width: 45%;
+    height: 50%;
+    float: left;
+}
+.recom .outfit .works .tupian .tp1 img{
+    width: 45%;
+    height: 3.3rem;
+    float: left;
+    margin-left: 2%;
+}
+.recom .outfit .works .tupian .tp2 img{
+    width: 42%;
+    height: 50%;
+    float: left;
+    margin-top: -32%;
+    margin-left: 0.29rem;
+}
+.recom .outfit .works .tou{
+    width: 80%;
+    height:2rem;
+    border-left:0.01rem solid #569F6C;
+    overflow: hidden;
+    margin-left: 0.8rem;
+}
+.recom .outfit .works .tou .tou1 img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.recom .outfit .works .sj{
+    width: 35%;
+    height:auto;
+    padding: 0.1rem 0.3rem;
+    background: #569F6C;
+    border-radius: 30px;
+    margin:0.3rem 0 0 2rem;
+}
+.recom .outfit .works .sj h1{
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+.recom .outfit .dian{
+    width: 100%;
+    height:auto;
+}
+.recom .outfit .dian ul{
+    width: 3rem;
+    height:auto;
+    margin:0 auto;
+    padding: 0.2rem;
+    overflow: hidden;
+}
+.recom .outfit .dian ul li{
+    width: 0.2rem;
+    height: 0.2rem;
+    float: left;
+    background: #BBD9C4;
+    margin-left:0.15rem;
+    border-radius: 50%;
+}

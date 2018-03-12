@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: '苹果方黑';
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    -webkit-tap-highlight-color: transparent;
+}
+input{
+    outline: none;
+    border: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.header{
+    width: 100%;
+    height: 0.88rem;;
+    background-color: #569F6C;
+    position: fixed;
+}
+.header input{
+    display: block;
+    width: 5.9rem;
+    height: 0.52rem;
+    border-radius: 0.3rem;
+    margin: 0.2rem 0.2rem;
+    float: left;
+    font-size: 2rem;
+}
+.header span{
+    font-size: 0.35rem;
+    float: right;
+    margin: 0.2rem 0.15rem;
+    color: #FFFFFF;
+}
+.header i{
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.3rem;
+    color: #569F6C;
+}
+
+.search{
+    width: 100%;
+    height: 3rem;
+    padding: 0.2rem;
+}
+.search h1{
+    font-size: 0.3rem;
+    color: #333333;
+    margin-bottom: 0.2rem;
+    margin-top: 0.88rem;
+}
+.search .ziti{
+    width: 100%;
+    hright:auto;
+    overflow: hidden;
+}
+.search .ziti ul{
+    width: 1rem;
+    height:auto;
+    padding: 0.05rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 30px;
+    background: #569F6C;
+    float: left;
+}
+.search .ziti ul li{
+    font-size: 0.25rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.history{
+    width: 100%;
+    height:auto;
+    border-top: 0.25rem solid #F1F3F4;
+    padding: 0.2rem;
+}
+.history h1{
+    font-size: 0.3rem;
+    color: #333333;
+    margin-bottom: 0.3rem;
+}
+.history ul{
+    width: 100%;
+    height: auto;
+    border-bottom: 0.01rem solid #ccc;
+    margin-bottom: 0.2rem;
+}
+.history ul li{
+    font-size: 0.3rem;
+    color: #333333;
+    margin-bottom: 0.3rem;
+}
+.dibu ul{
+    width: 50%;
+    height:auto;
+    background: #569F6C;
+    border-radius: 40px;
+    margin: 0.3rem auto;
+    padding: 0.1rem;
+}
+.dibu ul li{
+    font-size: 0.35rem;
+    color: #ffffff;
+    text-align: center;
+}
