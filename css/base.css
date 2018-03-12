@@ -1,0 +1,25 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 苹果方黑;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	-webkit-tap-highlight-color: transparent;
+}
+input{
+	outline: none;
+	border: 0;
+}
+img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}

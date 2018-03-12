@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>申请设计</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/shenqing.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_574288_yd25licvlmghw7b9.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/shenqing.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        $(function(){
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        })
+    </script>
+</head>
+<body>
+<!--head开始-->
+    <div class="sheji">
+        <a href="javascript:history.back(-1);" class="iconfont">&#xe667;</a>
+        <div class="design">申请设计</div>
+    </div>
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href=""><img src="img/shouye/banner5.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="img/shouye/banner2.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="img/shouye/banner1.jpg" alt=""></a></div>
+                <div class="swiper-slide"><a href=""><img src="img/shouye/banner4.jpg" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+<!--head结束-->
+<!--申请设计-->
+    <div class="today">
+        <div class="center">
+            <div class="circle"></div>
+            <span>申请设计</span>
+            <div class="circle"></div>
+        </div>
+        <div class="eng">TODAY'S RECOMMENDATION</div>
+    </div>
+    <div class="biao">
+        <form>
+            <div class="form-group">
+                <label class="col">您的姓名：</label>
+                <input type="text" class="control" placeholder="请输入您的姓名">
+            </div>
+            <div class="form-group">
+                <label class="col">您的手机：</label>
+                <input type="text" class="control" placeholder="请输入您的手机号">
+            </div>
+        </form>
+        <form action="">
+            <div class="form-group">
+                <label class="col">设计师性别：</label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" class="check"  checked> 不限
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" class="check"> 男
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" class="check"> 女
+                </label>
+            </div>
+        </form>
+        <form>
+            <div class="form-group">
+                <label class="col">可接受价格：</label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio" value="option1" class="check"  checked> 不限
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadi" value="option2" class="check"> 200内/平
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRad" value="option3" class="check"> 500内/平
+                </label>
+            </div>
+        </form>
+        <form>
+            <div class="form-group">
+                <label class="col">是否需家装公司：</label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRa" value="option1" class="check"  checked> 是
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineR" value="option2" class="check"> 否
+                </label>
+            </div>
+        </form>
+    </div>
+    <div href="" class="submit">确定预约</div>
+    <div class=" yin seccess">
+        <div class="seccess">
+        <h3>预约成功</h3>
+        <h4>设计师稍后会与您进行联系</h4>
+        <div href="" class="sure">确定</div>
+    </div>
+    </div>
+</body>
+</html>

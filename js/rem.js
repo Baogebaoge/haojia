@@ -1,23 +1,19 @@
-window.onload=function(){
-    resize(750,"x");
-}
-function resize(originSize,type){
-    // originSize = 750;
-    // type = x
-    type = type || "x";
-    if(type=="x"){
-        var width = document.documentElement.clientWidth;//设备的宽度
-        var scale = width/originSize*100+"px";
-        document.getElementsByTagName("html")[0].style.fontSize=scale;
-    }else if(type=="y"){
-        var height = document.documentElement.clientHeight;
-        var scale = height/originSize+"px";
-        document.getElementsByTagName("html")[0].style.fontSize=scale;
-    }
-}
-resize(750,"x");
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=750){
+                  // 这里的640 取决于设计稿的宽度
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';   
+                }     
+            };
 
-window.onresize = function(){
-   resize(750,"x"); 
-}
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
 

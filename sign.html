@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_574288_wzqfqqjv6teuq5mi.css">
+    <link rel="stylesheet" href="css/sign.css">
+    <script src="rem.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <title>注册</title>
+    <style>
+        .error{
+            color:#569f6c;
+            font-size: 0.2rem;
+            position: absolute;
+        }
+        label{
+            margin-left: 1rem;
+            margin-top: 0.4rem;
+        }
+    </style>
+</head>
+<body>
+<!--遮罩-->
+<div class="zhe"></div>
+<!--header-->
+<div class="header">
+    <a href="enter.html" style="color: #333333"><div class="iconfont">&#xe667;</div></a>
+    <div class="one">注册</div>
+</div>
+<!--header结束-->
+<!--信息开始-->
+<div class="tou">
+    <img src="img/enter/tx.jpg" alt="">
+    <div class="name">小跳跳</div>
+</div>
+<!--信息结束-->
+<!--登录开始-->
+<form class="cmxform" id="commentForm" method="get" action="">
+    <div class="signin">
+        <div class="user">
+            <div class="waiyuan">
+                <i class="iconfont" >&#xe602;</i>
+            </div>
+            <input type="text" class="form-control" id="cname" name="cname" placeholder="  请输入您的用户名">
+        </div>
+        <div class="pass">
+            <div class="waiyuan">
+                <i class="iconfont" >&#xe85a;</i>
+            </div>
+            <input type="password" class="form-control" id="cpassword" name="cpassword" placeholder="  请输入您的密码">
+        </div>
+        <div class="pass1">
+            <div class="waiyuan">
+                <i class="iconfont" >&#xe60d;</i>
+            </div>
+            <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="  请再次输入您的密码">
+        </div>
+    </div>
+    <button class="liji">
+        <h4>立即注册</h4>
+    </button>
+</form>
+<!--登录结束-->
+</body>
+</html>
+<script>
+    $.validator.setDefaults({
+        submitHandler: function() {
+            alert("提交事件!");
+        }
+    });
+    $().ready(function() {
+// 在键盘按下并释放及提交后验证提交表单
+        $("#commentForm").validate({
+            rules: {
+                username: {
+                    required: true,
+                    minlength: 2
+                },
+                password: {
+                    required: true,
+                    minlength: 5
+                },
+                confirm_password: {
+                    required: true,
+                    minlength: 5,
+                    equalTo: "#password"
+                }
+
+            },
+            messages: {
+                username: {
+                    required: "请输入用户名",
+                    minlength: "用户名必需由两个字母组成"
+                },
+                password: {
+                    required: "请输入密码",
+                    minlength: "密码长度不能小于 5 个字母"
+                },
+                confirm_password: {
+                    required: "请输入密码",
+                    minlength: "密码长度不能小于 5 个字母"
+                    equalTo: "两次密码输入不一致"
+                },
+            }
+        });
+    });
+</script>

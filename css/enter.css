@@ -1,0 +1,234 @@
+@import "base.css";
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/enter/dlbj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zhe{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 0.88rem;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header .iconfont{
+    font-size: 0.5rem;
+    margin-top: 0.32em;
+    margin-left: 0.25rem;
+    float: left;
+}
+.header .one{
+    font-size: 0.35rem;
+    margin-top: 0.2rem;
+    text-align:  center;
+    float: left;
+    margin-left: 2.8rem;
+}
+.header .two{
+    font-size: 0.3rem;
+    float: right;
+    margin-top: 0.25rem;
+    text-align:  center;
+    margin-right: 0.25rem;
+    color: #000;
+}
+.tou{
+    width: 1.82rem;
+    height: 1.82rem;
+    border-radius: 50%;
+    border: 0.05rem solid #ffffff;
+    position: absolute;
+    left: 40%;
+    top: 2rem;
+}
+.tou img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 0.05rem;
+}
+.tou .name{
+    font-size: 0.4rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.2rem;
+}
+
+.cmxform{
+    position: absolute;
+    top: 5.3rem;
+    left: 1rem;
+}
+.signin{
+    width: 5.82rem;
+    height: 2.6rem;
+    background-color: rgb(255, 255, 255);
+    margin:0 auto;
+    border-radius: 0.2rem;
+    margin-bottom: 0.2rem;
+
+}
+.signin .user{
+    width: 4.5rem;
+    height: 0.75rem;
+    margin:0 auto;
+    padding-top: 0.44rem;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.6rem;
+    margin-bottom: 0.1rem;
+}
+.waiyuan{
+    width: 0.65rem;
+    height: 0.65rem;
+    background-color: #96e2ad;
+    border-radius: 50%;
+    align-self: center;
+    position:  absolute;
+    top: 0.05rem;
+    left: 0.3rem;
+}
+.waiyuan .iconfont{
+    font-size: 0.5rem;
+    color:#fff;
+    line-height: 0.44rem;
+    display: flex;
+    align-self: center;
+    float:left;
+    margin-top: 0.1rem;
+    margin-left: 0.08rem;
+}
+input{
+    width: 3.76rem;
+    height: 0.6rem;
+    position: absolute;
+    left: 1rem;
+    bottom: 0;
+    font-size: 0.24rem;
+}
+.pass{
+    width: 4.5rem;
+    height: 0.75rem;
+    margin:0 auto;
+    padding-top: 0.44rem;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 1.3rem;
+    left: 0.6rem;
+}
+.forget{
+    width: 5.08rem;
+    height: 0.28rem;
+    padding-bottom: 0.58rem;
+    margin:0 auto;
+}
+.forget .back{
+    width: 1.2rem;
+    height: 0.28rem;
+    border-radius: 0.14rem;
+    float: right;
+}
+.forget .back h5{
+    font-size: 0.25rem;
+    color: #fff;
+    text-align: center;
+}
+.forget .jizhu{
+    width: 0.56rem;
+    height: 0.24rem;
+    background-color: #FF6363;
+    border-radius: 0.2rem;
+    border:0.02rem solid #FFB853;
+    float:right;
+    display: flex;
+
+}
+.forget .jizhu .baiyuan{
+    width: 0.22rem;
+    height: 0.22rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+}
+.liji{
+    display: block;
+    width: 3rem;
+    height: 0.7rem;
+    background-color: #569f6c;
+    border: 0.02rem solid #569f6c;
+    border-radius: 1rem;
+    position: relative;
+    left: 0;
+    top: 0.5rem;
+    margin:0 auto;
+}
+.liji h4{
+    color: #fff;
+    position: absolute;
+    top: 0.13rem;
+    left: 0.9rem;
+    font-size: 0.3rem;
+    font-weight:  normal;
+}
+.liji h5{
+    font-size: 0.20rem;
+    font-weight: bold;
+    color:#FFBBBB;
+    position: absolute;
+    top:0.36rem;
+    left:0.36rem;
+}
+.zheli{
+    width: 4.5rem;
+    height: 0.26rem;
+    margin:0 auto;
+    position:  absolute;
+    bottom: 2rem;
+    left: 1.5rem;
+    border-top: 1px solid #fff;
+    text-align:  center;
+    padding-top: 0.2rem;
+}
+.zheli h4{
+    margin:0 auto;
+    color:#fff;
+    font-weight: bold;
+    font-size: 0.26rem;
+}
+.fangshi{
+    width: 6.8rem;
+    height: 0.7rem;
+    padding-top: 0.4rem;
+    margin:0 auto;
+    position:  absolute;
+    bottom: 13rem;
+}
+.fangshi ul{
+    display: initial;
+    justify-content: space-between;
+    position:  absolute;
+    top: 12rem;
+    left: 2.3rem;
+}
+.fangshi ul li{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    float:  left;
+    margin-right: 0.5rem;
+}
+.fangshi ul li .iconfont{
+    font-size: 0.7rem;
+    color: #569f6c;
+}

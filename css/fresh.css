@@ -21,6 +21,9 @@ input{
 img{
     display: block;
 }
+body{
+    padding-top: 0.8rem;
+}
 
 .fresh{
     width: 100%;
@@ -41,7 +44,7 @@ img{
 }
 .outfit .header{
     width: 100%;
-    height: auto;
+    height: 0.88rem;
     background-color: #569F6C;
     padding: 0.15rem 0.25rem;
     position: fixed;
@@ -50,52 +53,80 @@ img{
     display: flex;
     justify-content: space-between;
 }
+
+.header{
+    width: 100%;
+    height: 0.88rem;;
+    background-color: #569F6C;
+    position: fixed;
+    padding:0.2rem 0.25rem;
+}
+.header .sear{
+    width: 6rem;
+    height: 0.5rem;
+    overflow: hidden;
+    float: left;
+    border-radius: 0.3rem;
+    background: #fff;
+    margin-top: 0.05rem;
+}
+
+.header .sear input{
+    display: block;
+    width: 5rem;
+    height: 0.5rem;
+    margin-left: 0.7rem;
+    float: left;
+    font-size: 2rem;
+}
+input::-webkit-input-placeholder{
+    color:#579F6C;
+}
+.header span{
+    font-size: 0.3rem;
+    float: right;
+    margin-left: 0.15rem;
+    color: #FFFFFF;
+}
+.header .sear i{
+    display: block;
+    font-size: 0.38rem;
+    position: absolute;
+    top: 0.25rem;
+    left: 0.4rem;
+    color: #569F6C;
+    float: left;
+}
+.tip{
+    height: 0.8rem;
+    width: 100%;
+    padding: 0.2rem 0;
+    margin-top: 0.88rem;
+}
+.tip .xian{
+    height: 0.01rem;
+    width: 2.76rem;
+    background: #569F6C;
+    float: left;
+    margin-top: 0.17rem;
+}
+.tip .tips{
+    color:#569F6C;
+    font-size: 0.22rem;
+    float: left;
+    margin:0 0.1rem;
+    line-height: 0.4rem;
+}
 .outfit .header h1{
     font-size: 0.4rem;
     text-align: center;
     font-weight: normal;
     color: #ffffff;
 }
-.outfit .header img{
-    width: 0.4rem;
-    height:0.4rem;
+.outfit .header a{
     margin-top: 0.1rem;
-}
-
-.outfit .content{
-    width: 100%;
-    height: auto;
-}
-.outfit .content .picture{
-    width: 100%;
-    height: auto;
-    border-bottom:0.25rem solid #f4f4f4;
-    overflow: hidden;
-    padding-top: 0.25rem;
-}
-.outfit .content .picture .tupian img{
-    width: 100%;
-    height: 5%;
-    margin-top: 10%;
-}
-.outfit .content .picture .tupian1 img{
-    width: 0.8rem;
-    height: 0.8rem;
-    border-radius: 50%;
-    margin: 0 0.3rem 0.2rem;
-    float: left;
-}
-.outfit .content .picture .tupian1 h1{
-    font-size: 0.25rem;
-    font-weight: normal;
-    color:#333333;
-    margin-top: 0.2rem;
-}
-.outfit .content .picture .tupian1 h2{
-    font-size: 0.25rem;
-    font-weight: normal;
-    color:#333333;
-    margin-top: 0.05rem;
+    color: #fff;
+    font-size: 0.34rem;
 }
 
 .outfit .content1{

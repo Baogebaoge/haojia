@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    -webkit-tap-highlight-color: transparent;
+}
+input{
+    outline: none;
+    border: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* background-color: #fff; */
+}
+.header{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #569F6C;
+}
+.header .header-top{
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: #569F6C;
+    position: relative;
+}
+.header .header-top i {
+    color: #FFFFFF;
+    position: absolute;
+    top: 0.25rem;
+    font-size: 0.36rem;
+    left: 0.25rem;
+}
+.header .header-top h1{
+    text-align: center;
+    font-size: 0.36rem;
+    color: #ECF5EF;
+    padding-top: 0.19rem;
+}
+
+
+
+.middle{
+    width: 5.5rem;
+    height: 4.86rem;
+    /*background-color: black;*/
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+.middle .portrait{
+    width: 1.59rem;
+    height: 1.55rem;
+    border-radius: 50%;
+    background-color: #00b7ee;
+    margin: 0 auto;
+}
+.middle .portrait img{
+    border-radius: 50%;
+}
+.middle .text{
+    width: 3.8rem;
+    height: 0.85rem;
+    /*background-color: #00b7ee;*/
+    margin: 0 auto;
+}
+.middle .text-1{
+    width: 3.9rem;
+    height: 0.46rem;
+    /*background-color: #3c763d;*/
+}
+.middle .text-1 h1{
+    font-size: 0.31rem;
+    text-align: center;
+    font-weight: normal;
+}
+.middle .text-1 .box{
+    width: 0.93rem;
+    height: 0.35rem;
+    background-color: #3c763d;
+    float: right;
+    font-size: 0.27rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight:  normal;
+    margin-top: 0.08rem;
+    /* margin-left: 0.1rem; */
+}
+.middle .text-2{
+    width: 3.8rem;
+    height: 0.39rem;
+    margin-top: 0.1rem;
+}
+.middle .text-2 .iconfont{
+    font-size: 0.3rem;
+    float: left;
+}
+.middle .text-2 .bos-1{
+    width: 1.4rem;
+    height: 0.51rem;
+    font-size: 0.24rem;
+    margin-left: 0.1rem;
+    margin-top: 0.02rem;
+    float: left;
+    font-weight:  normal;
+}
+.middle .text-2 .bos-2{
+    width: 1.61rem;
+    height: 0.51rem;
+    font-size: 0.24rem;
+    float: left;
+    margin-left: 0.1rem;
+    font-weight: normal;
+}
+.middle .text-2 img{
+    width: 0.2rem;
+    height: 0.2rem;
+    float: left;
+    margin-top: 0.05rem;
+}
+.middle .design{
+    width: 4rem;
+    height: 1.73rem;
+    margin-top: 0.2rem;
+}
+.middle .design .s{
+    font-size: 0.3rem;
+    text-align: center;
+    position:  absolute;
+    top: 4rem;
+    left: 3.3rem;
+}
+.middle .design .design-1{
+    width: 5.5rem;
+    height: 0.85rem;
+    margin-top: 0.8rem;
+}
+.middle .design-1 .design-left{
+    width: 1.96rem;
+    height: 0.86rem;
+    float: left;
+}
+.middle .design-left .top{
+    width: 2.4rem;
+    height: 0.42rem;
+}
+.middle .design-left .top .design-left-1{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background-color: #21ff35;
+    float: left;
+    margin-top: 0.05rem;
+}
+.middle .design-left .top span{
+    font-size: 0.28rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.middle .design-left .bottom{
+    width: 2.5rem;
+    height: 0.42rem;
+}
+.middle .design-left .bottom .design-left-1{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background-color: #21ff35;
+    margin-top: 0.05rem;
+    float: left;
+}
+.middle .design-left .bottom span{
+    font-size: 0.28rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.middle .design-1 .design-right{
+    width: 1.96rem;
+    height: 0.85rem;
+    float: right;
+}
+
+.middle .design-right .top{
+    width: 2.2rem;
+    height: 0.42rem;
+}
+.middle .design-right .top .design-left-1{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background-color: #21ff35;
+    float: left;
+    margin-top: 0.05rem;
+}
+.middle .design-right .top span{
+    font-size: 0.28rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.middle .design-right .bottom{
+    width: 2.2rem;
+    height: 0.42rem;
+}
+.middle .design-right .bottom .design-left-1{
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background-color: #21ff35;
+    float: left;
+    margin-top: 0.05rem;
+}
+.middle .design-right .bottom span{
+    font-size: 0.28rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+
+.box{
+    width: 7.5rem;
+    height: 3.61rem;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.bos{
+    width: 7.02rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.15rem;
+}
+
+.bos p{
+    font-size: 0.2rem;
+    color: #000000;
+    font-weight: normal;
+}
+
+.boc{
+    width: 7.5rem;
+    height: 5.49rem;
+    margin-top: 0.2rem;
+}
+.boc h1{
+    font-size: 0.3rem;
+    text-align: center;
+}
+.boc .boc-bottom{
+    width: 7.5rem;
+    height: 4.45rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}

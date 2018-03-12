@@ -1,0 +1,151 @@
+@import url('base.css');
+.sheji{
+    width: 100%;
+    padding:0 0.25rem;
+    height: 0.88rem;
+    background: #579F6C;
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+.sheji .iconfont{
+    float: left;
+    font-size: 0.46rem;
+    line-height: 0.88rem;
+    color:#fff;
+    font-weight: 600;
+}
+.sheji .design{
+    float: left;
+    font-size: 0.36rem;
+    line-height: 0.88rem;
+    margin-left: 2.4rem;
+    color:#fff;
+}
+.banner{
+    margin-top:0.88rem;
+    width: 100%;
+    height: 3rem;
+}
+.banner .swiper-wrapper img{
+    width: 100%;
+    height: 3rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom:0;
+}
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+.today{
+    margin-top:0.6rem;
+    width: 100%;
+    margin-bottom:0.4rem;
+}
+.today .center{
+    width: 2rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.today .center span{
+    font-size: 0.32rem;
+    float: left;
+    margin: 0 0.2rem;
+}
+.today .center .circle{
+    width: 0.15rem;
+    height: 0.15rem;
+    border-radius: 50%;
+    background: #569F6C;
+    float: left;
+    margin-top:0.15rem;
+}
+.today .eng{
+    text-align: center;
+    font-size: 0.22rem;
+}
+.biao{
+    width: 100%;
+    padding:0 0.5rem;
+}
+.biao label{
+    color:#000;
+    font-size: 0.32rem;
+    font-weight: normal;
+}
+.biao .control{
+    width: 4.8rem;
+    border:none;
+    border-bottom: 0.01rem solid #ccc;
+    box-shadow:none;
+}
+input::-webkit-input-placeholder{
+    color:#c0c0c0;
+    font-size: 0.2rem;
+}
+.biao .radio-inline{
+    font-size: 0.24rem;
+}
+.biao .form-group{
+    margin-bottom: 0.5rem;
+}
+.submit {
+    margin: 0 auto;
+    width: 4.8rem;
+    background: #569F6C;
+    color: #fff;
+    border-radius: 0.3rem;
+    line-height: 0.6rem;
+    display: block;
+    text-align: center;
+}
+.yin{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    display: none;
+}
+.yin .seccess{
+    width: 4rem;
+    height: 2rem;
+    background:#fff;
+    border-radius: 0.05rem;
+    position: absolute;
+    z-index: 1000;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    /*box-shadow: 0 0 10rem 10rem rgba(0,0,0,.5);*/
+    display: none;
+}
+.yin .seccess h3{
+    text-align: center;
+    font-size: 0.32rem;
+    margin:0;
+    margin-bottom: 0.25rem;
+    margin-top: 0.2rem;
+}
+.yin .seccess h4{
+    text-align: center;
+    font-size: 0.24rem;
+    margin-bottom: 0.25rem;
+    color:#888888;
+}
+.yin .seccess .sure{
+    width: 1.5rem;
+    height: 0.4rem;
+    background: #569F6C;
+    color:#fff;
+    border-radius: 0.3rem;
+    display: block;
+    text-align: center;
+    line-height: 0.4rem;
+    margin: 0 auto;
+    font-size: 0.22rem;
+}

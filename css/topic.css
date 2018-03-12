@@ -1,4 +1,5 @@
-﻿html{
+@import url('base.css');
+html{
 	font-size: 50px;
 }
 *{
@@ -6,7 +7,6 @@
 	padding: 0;
 	list-style: none;
 	box-sizing: border-box;
-	font-family: '苹果方黑';
 }
 a{
 	text-decoration: none;
@@ -24,31 +24,26 @@ img{
 
 
 .dynamic{
-	width: 100%;
+	width: 7.5rem;
 	height:auto;
 	margin: 0 auto;
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
 	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
 }
-.dynamic .page{
+.dynamic .page1{
 	width: 100%;
 	height: auto;
 }
-.dynamic .page .top{
-	width: 100%;
-	height:auto;
-	background: #569F6C;
-}
-.page .header{
-	width: 100%;
+.header{
+	width: 7.5rem;
 	height: auto;
 	background-color: #569F6C;
 	position: fixed;
 	top: 0;
 	left: 0;
 }
-.page .header h1{
+.header h1{
 	font-size: 0.4rem;
 	text-align: center;
 	font-weight: normal;
@@ -56,15 +51,15 @@ img{
 	margin-top: 0.2rem;
 	margin-bottom: 0.15rem;
 }
-.page .header img{
-	width: 0.4rem;
-	height:0.4rem;
+.header .fot{
 	position: absolute;
-	top: 0.25rem;
+	top: 0.2rem;
 	right: 0.25rem;
+	color: #fff;
+	font-size: 0.5rem;
 }
-.page .case{
-	width: 100%;
+.case{
+	width: 7.5rem;
 	height:auto;
 	background-color: #569F6C;
 	position: fixed;
@@ -73,26 +68,33 @@ img{
 	display: flex;
 	justify-content:space-around;
 }
-.page .case .case1{
+.case .case1{
 	width:25%;
 	height: auto;
-	border-radius: 12px;
+	border-radius: 6rem;
 	background: #ffffff;
 	margin: 0.2rem;
+	font-size:  0.3rem;
 }
-.page .case h2{
-	font-size: 0.36rem;
+.case h2{
+	font-size: 0.3rem;
 	text-align: center;
 	font-weight: normal;
 	color: #333333;
+	margin-top: 0.01rem;
 }
-.page .case h3{
-	font-size: 0.36rem;
+.case h3{
+	font-size: 0.3rem;
 	text-align: center;
 	font-weight: normal;
 	color: #7CB58D;
+	margin-top:  0.01rem;
 }
-
+.page{
+	width: 100%;
+	height:auto;
+	margin-bottom: 0.65rem;
+}
 .page .image{
 	width: 100%;
 	height:auto;
@@ -103,6 +105,7 @@ img{
 	width: 100%;
 	height: 3.15rem;
 }
+
 .page .image1{
 	width: 100%;
 	height:auto;
@@ -133,11 +136,12 @@ img{
 	float: left;
 }
 .page .author .portrait h1{
-	font-size: 0.3rem;
+	font-size: 0.29rem;
 	color:#333333;
 	float: left;
 	margin-left: 0.2rem;
 	margin-top: 0.07rem;
+	
 }
 .page .author .list{
 	width: 60%;
@@ -145,23 +149,27 @@ img{
 	float:right;
 }
 .page .author .list img{
-	width: 0.3rem;
+	width: 0.35rem;
 	height: 0.3rem;
 	float:right;
-	margin: 0.15rem;
+	margin: 0.13rem;
 }
 .page .author .list h1{
 	font-size: 0.3rem;
 	color: #666666;
 	float:right;
 	margin-top: 0.1rem;
+	font-weight:  normal;
 }
 .page .article{
+	width: 100%;
+	height:auto;
 	padding: 0.05rem 0.2rem;
 }
 .page .article h1{
-	font-size: 0.35rem;
-	color: #333333;
+	font-size: 0.33rem;
+	color: #3c3c3c;
+
 }
 .page .line{
 	width: 100%;
@@ -170,7 +178,7 @@ img{
 	margin-top: 0.2rem;
 }
 
-.page .foot{
+.foot{
 	width: 100%;
 	height: 1.2rem;
 	overflow: hidden;
@@ -181,41 +189,41 @@ img{
 	bottom: 0;
 	left: 0;
 }
-.page .foot .shouye{
-	width: 20%;
+.foot .shouye{
+	width: 21%;
 	height:auto;
 	float: left;
 	padding-top: 0.1rem;
 }
-.page .foot .shouye img{
+.foot .shouye img{
 	width: 0.6rem;
 	height:0.6rem;
 	margin:0 auto;
 }
-.page .foot .shouye h1{
+.foot .shouye h1{
 	font-size: 0.2rem;
 	text-align: center;
 	color: #babbbc;
 	margin-top: 0.05rem;
 }
-.page .foot .haojia{
-	width: 20%;
+.foot .haojia{
+	width: 21%;
 	height:auto;
 	float: left;
 	padding-top: 0.1rem;
 }
-.page .foot .haojia img{
+.foot .haojia img{
 	width: 0.6rem;
 	height:0.6rem;
 	margin:0 auto;
 }
-.page .foot .haojia h1{
+.foot .haojia h1{
 	font-size: 0.2rem;
 	text-align: center;
 	color: #babbbc;
 	margin-top: 0.05rem;
 }
-.page .foot .jiahao{
+.foot .jiahao{
 	width: 1rem;
 	height: 1rem;
 	margin-top: 0.1rem;
@@ -223,40 +231,40 @@ img{
 	background: #569F6C;
 	float: left;
 }
-.page .foot .jiahao h1{
+.foot .jiahao h1{
 	font-size: 0.9rem;
 	color: #ffffff;
 	margin-left:0.15rem;
 }
-.page .foot .dongtai{
-	width: 20%;
+.foot .dongtai{
+	width: 21%;
 	height:auto;
 	float: left;
 	padding-top: 0.1rem;
 }
-.page .foot .dongtai img{
+.foot .dongtai img{
 	width: 0.6rem;
 	height:0.6rem;
 	margin:0 auto;
 }
-.page .foot .dongtai h1{
+.foot .dongtai h1{
 	font-size: 0.2rem;
 	text-align: center;
 	color: #569F6C;
 	margin-top: 0.05rem;
 }
-.page .foot .wode{
-	 width: 20%;
+.foot .wode{
+	 width: 21%;
 	 height:auto;
 	 float: left;
 	 padding-top: 0.1rem;
  }
-.page .foot .wode img{
+.foot .wode img{
 	width: 0.6rem;
 	height:0.6rem;
 	margin:0 auto;
 }
-.page .foot .wode h1{
+.foot .wode h1{
 	font-size: 0.2rem;
 	text-align: center;
 	margin-top: 0.05rem;
@@ -264,34 +272,114 @@ img{
 }
 
 
-.page .middle{
+.middle{
 	width: 95%;
 	height: auto;
 	margin:0 auto;
 	border-radius: 5px;
 	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #ccc;
 }
-.page .middle .browse{
+.middle .browse{
 	width: 100%;
 	height: auto;
 	padding: 0.3rem 0.3rem;
 	overflow: auto;
 }
-.page .middle .browse img{
+.middle .browse img{
 	width: 0.5rem;
 	height: 0.5rem;
 	float: left;
 }
-.page .middle .browse h1{
+.middle .browse h1{
 	font-size: 0.3rem;
 	color: #666666;
 	float: left;
 	margin:0 0.3rem;
 }
-.page .middle .browse h2{
+.middle .browse h2{
 	font-size: 0.3rem;
 	color: #666666;
 	float: right;
 	margin:0 0.3rem;
 }
+.footer{
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	background: #fff;
+}
+.footer .con{
+	height: 1rem;
+	border-top: 0.01rem solid #ccc;
+	padding:0.12rem 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.footer .con a{
+	color:#A9AAAB;
+}
+.footer .con .fenlei div{
+	font-size: 0.24rem;
+}
+.footer .con .fenlei .iconfont{
+	font-size: 0.4rem;
+	margin-left: 0.03rem;
+	color:#A9AAAB;
+}
+.footer .con .fenlei .tu{
+	width: 0.4rem;
+	margin-bottom: 0.05rem;
+	margin-left: 0.05rem;
+}
+.footer .con .fenlei .hot{
+	color:#579F6C;
+}
+.footer .con .iconfont{
+	color:#579F6C;
+	font-size: 0.8rem;
+}
 
+.big {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	z-index: 1000;
+	display: none;
+	position:  fixed;
+	top: 0;
+	left: 0;
+}
+.big .jia{
+	width: 1.6rem;
+	height: auto;
+	position: fixed;
+	z-index: 1000;
+	top:5rem;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin:auto;
+	display: none;
+}
+.big .jia .pro{
+	margin-bottom: 0.4rem;
+}
+.big .jia .pro .tu{
+	width: 1.3rem;
+	height: 1.3rem;
+	background: #fff;
+	border-radius: 50%;
+	padding-top: 0.35rem;
+	margin-bottom: 0.1rem;
+	margin-left: 0.1rem;
+}
+.big .jia .pro .tu img{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-left: 0.35rem;
+}
+.big .jia .pro h3{
+	font-size: 0.3rem;
+	color:#fff;
+	text-align: center;
+}

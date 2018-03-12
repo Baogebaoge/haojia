@@ -37,23 +37,29 @@ img{
 }
 .nickanme .top .header{
     width: 100%;
-    height: auto;
+    height: 0.88rem;
     background-color: #569F6C;
     padding:0.2rem 0;
 }
-.nickanme .header h1{
-    font-size: 0.8rem;
-    font-weight: normal;
-    color: #ffffff;
-    position: absolute;
-    top: -0.1rem;
-    left: 0.2rem;
+.sheji{
+    width: 100%;
+    padding:0 0.25rem;
+    height: 0.88rem;
+    background: #579F6C;
 }
-.nickanme .header h2{
-    font-size: 0.4rem;
-    text-align: center;
-    font-weight: normal;
-    color: #ffffff;
+.sheji .iconfont{
+    float: left;
+    font-size: 0.46rem;
+    line-height: 0.88rem;
+    color:#fff;
+    font-weight: 600;
+}
+.sheji .design{
+    float: left;
+    font-size: 0.36rem;
+    line-height: 0.88rem;
+    margin-left: 2.4rem;
+    color:#fff;
 }
 
 .nickanme .top .mingzi{
@@ -76,6 +82,7 @@ img{
     float:right;
     margin-right: 0.26rem;
     margin-top: -0.2rem;
+    font-weight: normal;
 }
 
 .nickanme .top .modify{

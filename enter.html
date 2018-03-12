@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_574288_wzqfqqjv6teuq5mi.css">
+    <link rel="stylesheet" href="css/enter.css">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <title>登录</title>
+
+    <style>
+        .error{
+            color:#569f6c;
+            font-size: 0.2rem;
+            position: absolute;
+        }
+        label{
+            margin-left: 1rem;
+            margin-top: 0.4rem;
+        }
+    </style>
+</head>
+<body>
+    <!--遮罩-->
+    <div class="zhe"></div>
+    <!--header-->
+    <div class="header">
+        <a href="my.html" style="color: #333333"><div class="iconfont">&#xe667;</div></a>
+        <div class="one">登录</div>
+        <a href="sign.html"><div class="two">注册</div></a>
+    </div>
+    <!--header结束-->
+    <!--信息开始-->
+    <div class="tou">
+        <img src="img/v2-7fd437222f7c653f8374844aee4d93db_hd.jpg" alt="">
+        <div class="name">马倩</div>
+    </div>
+    <!--信息结束-->
+    <!--登录开始-->
+    <form class="cmxform" id="commentForm" method="get" action="">
+        <div class="signin">
+            <div class="user">
+                <div class="waiyuan">
+                    <i class="iconfont" >&#xe602;</i>
+                </div>
+                <input type="text"  id="cname" name="cname"  placeholder="  请输入您的用户名"  required>
+            </div>
+            <div class="pass">
+                <div class="waiyuan">
+                    <i class="iconfont" >&#xe85a;</i>
+                </div>
+                <input type="password"  id="cpassword" name="cpassword" placeholder="  请输入您的密码" required >
+            </div>
+        </div>
+        <div class="forget">
+            <div class="back">
+                <a href=""><h5>忘记密码?</h5></a>
+            </div>
+        </div>
+        <button class="liji">
+            <a href="my.html"><h4>立即登录</h4></a>
+        </button>
+    </form>
+    <div class="xian"></div>
+    <div class="zheli">
+        <h4>~第三方账号登录~</h4>
+    </div>
+    <div class="fangshi">
+        <ul>
+            <li>
+                <a href=""><i class="iconfont">&#xe626;</i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont">&#xe73b;</i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont">&#xe73c;</i></a>
+            </li>
+        </ul>
+    </div>
+    <!--登录结束-->
+</body>
+</html>
+<script>
+    $.validator.setDefaults({
+        submitHandler: function() {
+            alert("登陆成功");
+            location.href="my.html";
+        }
+    });
+    $().ready(function() {
+        $("#commentForm").validate({
+            rules:{
+                cname: {
+                    required: true,
+                    rangelength:[5,10]
+                },
+                cpassword: {
+                    required: true,
+                    minlength: 6
+                }
+            },
+            messages: {
+                cname: {
+                    required: "请输入用户名"
+                },
+                cpassword: {
+                    required: "请输入密码",
+                    minlength: "密码长度不能小于 6 个字符"
+                }
+            }
+        });
+    });
+</script>

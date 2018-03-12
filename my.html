@@ -5,9 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>我的</title>
     <link rel="stylesheet" href="css/my.css">
-    <scprit src="js/rem.js"></scprit>
+    <script src="js/jquery.js"></script>
+    <script src="js/home.js"></script>
+    <script src="rem.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_574288_yd25licvlmghw7b9.css
+">
+    <script>
+        $(function(){
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        })
+    </script>
 </head>
 <body>
     <div class="my">
@@ -15,54 +31,58 @@
             <!--头部-->
             <div class="header">
                 <h1>我的</h1>
-                <a href=""><img src="img/home_daohang_icon_sousuo2x.png" alt=""></a>
             </div>
            <div class="rest">
-               <a href=""><img src="img/u=3736190126,1277923971&fm=27&gp=0.jpg" alt=""></a>
-               <h1>Happy</h1>
-               <h2>真理</h2>
+               <a href="enter.html">
+                   <img src="img/u=3736190126,1277923971&fm=27&gp=0.jpg" alt="">
+                   <h1>matingting</h1>
+                   <h2>马婷婷</h2>
+               </a>
            </div>
             <!--头部-->
 
             <!--中间-->
             <div class="middle">
                 <div class="browse">
-                    <a href="">
+                    <a href="footprint.html">
                         <img src="img/wode__icon_zuijinliulan@2x.png" alt="">
-                        <h1>最近浏览</h1>
-                        <h2>查看全部 &gt</h2>
+                        <h1>最近足迹</h1>
+                        <div class="iconfont"> &#xe642;</div>
+                        <h2>查看全部</h2>
+
                     </a>
                 </div>
                 <div class="browse">
-                    <a href="">
+                    <a href="nickname.html">
                         <img src="img/wode__icon_nicheng@2x.png" alt="">
                         <h1>更改昵称</h1>
-                        <h2>&gt</h2>
+                        <div class="iconfont"> &#xe642;</div>
                     </a>
                 </div>
                 <div class="browse">
-                    <a href="">
+                    <a href="shenqing.html">
                         <img src="img/wode__icon_genghuanshoujihao@2x.png" alt="">
-                        <h1>更换手机号</h1>
-                        <h2>&gt</h2>
+                        <h1>申请设计</h1>
+                        <div class="iconfont"> &#xe642;</div>
                     </a>
                 </div>
                 <div class="browse">
-                    <a href="">
+                    <a href="shoucang.html">
                         <img src="img/wode__icon_shoucang@2x.png" alt="">
                         <h1>收藏</h1>
-                        <h2>查看全部 &gt</h2>
+                        <div class="iconfont"> &#xe642;</div>
+                        <h2>查看全部</h2>
                     </a>
                 </div>
                 <div class="browse">
                     <a href="">
                         <img src="img/wode__icon_kefu@2x.png" alt="">
                         <h1>我的客服</h1>
-                        <h2>&gt</h2>
+                        <div class="iconfont"> &#xe642;</div>
                     </a>
                 </div>
                 <div class="browse">
-                    <a href="">
+                    <a href="enter.html">
                         <img src="img/wode__icon_tuichu@2x.png" alt="">
                         <h1>退出登录</h1>
                     </a>
@@ -71,36 +91,56 @@
             <!--中间-->
 
             <!--底部-->
-            <div class="foot">
-                <div class="shouye">
-                    <a href="">
-                        <img src="img/sy.png" alt="">
-                        <h1>首页</h1>
-                    </a>
-                </div>
-                <div class="haojia">
-                    <a href="">
-                        <img src="img/home_tab_icon_haojia2x.png" alt="">
-                        <h1>好家</h1>
-                    </a>
-                </div>
-                <div class="jiahao">
-                    <h1>+</h1>
-                </div>
-                <div class="dongtai">
-                    <a href="">
-                        <img src="img/home_tab_icon_dongtai2x.png" alt="">
-                        <h1>动态</h1>
-                    </a>
-                </div>
-                <div class="wode">
-                    <a href="">
-                        <img src="img/home_tab_icon_wode2x.png" alt="">
-                        <h1>我的</h1>
-                    </a>
+            <div class="footer">
+                <div class="con">
+                    <a href="home.html"><div class="fenlei">
+                        <div class="iconfont">&#xe62a;</div>
+                        <div class="">首页</div>
+                    </div></a>
+                    <a href="haojia.html"><div class="fenlei">
+                        <div class="iconfont">&#xe62f;</div>
+                        <div>好家</div>
+                    </div></a>
+                    <div class="iconfont add">&#xe604;</div>
+                    <a href="topic.html"><div class="fenlei">
+                        <div class="iconfont">&#xe71b;</div>
+                        <div>动态</div>
+                    </div></a>
+                    <a href=""><div class="fenlei">
+                        <div class="iconfont hot">&#xe620;</div>
+                        <div class="hot">我的</div>
+                    </div></a>
                 </div>
             </div>
             <!--底部-->
+        </div>
+        <div class="big jia">
+            <div class="jia">
+                <a href="footprint.html">
+                    <div class="pro">
+                        <div class="tu tu1">
+                            <img src="img/shouye/zuji.png" alt="">
+                        </div>
+                        <h3>历史足迹</h3>
+                    </div>
+                </a>
+                <a href="progress.html">
+                    <div class="pro">
+                        <div class="tu">
+                            <img src="img/shouye/jindu__icon_jindu@2x.png" alt="">
+                        </div>
+                        <h3>查看进度</h3>
+                    </div>
+                </a>
+                <a href="article.html">
+                    <div class="pro">
+                        <div class="tu">
+                            <img src="img/shouye/fabu__icon_fabu@2x.png" alt="">
+                        </div>
+                        <h3>发布文章</h3>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </body>
